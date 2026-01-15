@@ -42,8 +42,8 @@
     "yarn": "^1.22.10"
   },
   "scripts": {
-    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
