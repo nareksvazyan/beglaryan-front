@@ -40,6 +40,7 @@
     "swiper": "^11.2.8"
   },
   "scripts": {
+    "preinstall": "npm install react-scripts@5.0.1 --legacy-peer-deps",
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
