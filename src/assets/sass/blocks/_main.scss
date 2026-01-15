@@ -1,0 +1,48 @@
+//=================================================
+// Main
+//=================================================
+
+/*=============================
+// All page
+=============================*/
+main {
+    padding-top: $main_padding_t;
+    padding-bottom: $main_padding_b;
+
+    &.content-no-spacing {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        #page-content {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 780px) {
+  h1{
+    font-size: 2rem !important;
+  }
+ 
+  h2{
+    font-size: 1.5rem !important;
+  }
+  h3{
+    font-size: 1.3rem !important;
+  }
+  .title{
+    width: 100%!important;
+    h1{
+      width: 100% !important;
+      font-size: 1.4rem !important;
+      line-height: 40px;
+    }
+  }
+  .reviews-text-item-content{
+    width: 100% !important;
+  .reviews-text{
+    font-size: 18px !important;
+  }}
+  }
+  

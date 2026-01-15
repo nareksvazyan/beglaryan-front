@@ -1,0 +1,49 @@
+//=================================================
+// About
+//=================================================
+
+.about-img {
+  .img {
+    min-height: 400px;
+    max-height: 700px;
+
+    &.object-fit {
+      &:before {
+        padding-top: 43.75% !important;
+      }
+    }
+  }
+}
+
+.mission-box {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+  .section-title{
+	color: #000;
+	font-weight: 700;
+  }
+  &:hover {
+    background: #fff3cd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .mission-icon {
+    color: #ffb400;
+  }
+}
+
+.team-intro {
+	text-align: center;
+  
+	h2 {
+	  font-weight: 700;
+	}
+  
+	p {
+	  max-width: 1200px;
+	  margin: 0 auto;
+	  font-size: 1.1rem;
+	}
+  }
+  

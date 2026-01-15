@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "title": "Facebook",
+    "link": "https://www.facebook.com/beglaryancenter",
+    "icon": "fab fa-facebook-f"
+  },
+  {
+    "id": "2",
+    "title": "Instagram",
+    "link": "https://www.instagram.com/beglaryanmedicalcenter/",
+    "icon": "fab fa-instagram"
+  }
+]
